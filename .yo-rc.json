@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Nicolas Balduzzi",
+      "authorEmail": "nico.balduzzi@gmail.com",
+      "authorUrl": "https://github.com/chapuletta"
+    }
+  }
+}
