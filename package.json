@@ -79,6 +79,8 @@
       "prettier"
     ]
   },
-  "repository": "chapuletta/generator-fastify",
-  "private": true
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/chapuletta/generator-fastify.git"
+  }
 }
