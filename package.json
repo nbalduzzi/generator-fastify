@@ -1,12 +1,12 @@
 {
   "name": "generator-fastify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fastify Generator for APIs",
-  "homepage": "https://github.com/chapuletta",
+  "homepage": "https://github.com/nbalduzzi",
   "author": {
     "name": "Nicolas Balduzzi",
     "email": "nico.balduzzi@gmail.com",
-    "url": "https://github.com/chapuletta"
+    "url": "https://github.com/nbalduzzi"
   },
   "files": [
     "generators"
@@ -81,6 +81,6 @@
   },
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/chapuletta/generator-fastify.git"
+    "url" : "https://github.com/nbalduzzi/generator-fastify.git"
   }
 }

@@ -8,7 +8,7 @@
     "start": "eslint ./src && cross-env NODE_ENV=prod nodemon src/app.js",
     "test": "eslint ./src && cross-env NODE_ENV=test tap ./test/*.js --cov 90"
   },
-  "author": "Chapuletta",
+  "author": "Nicolas Balduzzi",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.4",
