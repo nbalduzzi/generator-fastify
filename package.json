@@ -1,6 +1,6 @@
 {
   "name": "generator-fastify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fastify Generator for APIs",
   "homepage": "https://github.com/nbalduzzi",
   "author": {
@@ -8,35 +8,29 @@
     "email": "nico.balduzzi@gmail.com",
     "url": "https://github.com/nbalduzzi"
   },
-  "files": [
-    "generators"
-  ],
+  "files": ["generators"],
   "main": "generators/index.js",
-  "keywords": [
-    "yeoman-generator",
-    "fastify",
-    "archetype"
-  ],
+  "keywords": ["yeoman-generator", "fastify", "archetype"],
   "devDependencies": {
-    "yeoman-test": "^1.7.0",
-    "yeoman-assert": "^3.1.0",
-    "nsp": "^2.8.0",
+    "yeoman-test": "^1.7.2",
+    "yeoman-assert": "^3.1.1",
+    "nsp": "^3.2.1",
     "eslint": "^4.19.1",
-    "prettier": "^1.11.1",
+    "prettier": "^1.12.1",
     "husky": "^0.14.3",
-    "lint-staged": "^6.1.1",
+    "lint-staged": "^7.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.0",
-    "eslint-config-xo": "^0.20.1",
-    "jest": "^22.0.6"
+    "eslint-config-xo": "^0.22.2",
+    "jest": "^22.4.3"
   },
   "engines": {
     "npm": ">= 4.0.0"
   },
   "dependencies": {
-    "yeoman-generator": "^2.0.1",
-    "chalk": "^2.1.0",
-    "yosay": "^2.0.1"
+    "yeoman-generator": "^2.0.5",
+    "chalk": "^2.4.1",
+    "yosay": "^2.0.2"
   },
   "jest": {
     "testEnvironment": "node"
@@ -48,20 +42,11 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.js": ["eslint --fix", "git add"],
+    "*.json": ["prettier --write", "git add"]
   },
   "eslintConfig": {
-    "extends": [
-      "xo",
-      "prettier"
-    ],
+    "extends": ["xo", "prettier"],
     "env": {
       "jest": true,
       "node": true
@@ -75,12 +60,10 @@
         }
       ]
     },
-    "plugins": [
-      "prettier"
-    ]
+    "plugins": ["prettier"]
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/nbalduzzi/generator-fastify.git"
+    "type": "git",
+    "url": "https://github.com/nbalduzzi/generator-fastify.git"
   }
 }
