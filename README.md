@@ -1,5 +1,8 @@
-# generator-fastify [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Fastify Generator for APIs
+# generator-fastify
+
+[![Build Status](https://travis-ci.org/nbalduzzi/generator-fastify.svg?branch=master)](https://travis-ci.org/nbalduzzi/fastify-fastify)
+
+[![NPM](https://nodei.co/npm/generator-fastify.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/generator-fastify/)
 
 ## Installation
 
@@ -18,19 +21,15 @@ yo fastify
 
 ## Getting To Know Yeoman
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+* Yeoman has a heart of gold.
+* Yeoman is a person with feelings and opinions, but is very easy to work with.
+* Yeoman can be too opinionated at times but is easily convinced not to be.
+* Feel free to [learn more about Yeoman](http://yeoman.io/).
+
+## Author
+
+[Nicolás Balduzzi](nico.balduzzi@gmail.com)
 
 ## License
 
- © [Nicolas Balduzzi]()
-
-
-[npm-image]: https://badge.fury.io/js/generator-fastify.svg
-[npm-url]: https://npmjs.org/package/generator-fastify
-[travis-image]: https://travis-ci.org/chapuletta/generator-fastify.svg?branch=master
-[travis-url]: https://travis-ci.org/chapuletta/generator-fastify
-[daviddm-image]: https://david-dm.org/chapuletta/generator-fastify.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/chapuletta/generator-fastify
+Licensed under [MIT](./LICENSE).

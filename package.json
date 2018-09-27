@@ -1,6 +1,6 @@
 {
   "name": "generator-fastify",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Fastify Generator for APIs",
   "homepage": "https://github.com/nbalduzzi",
   "author": {
