@@ -13,6 +13,8 @@ npm install -g yo
 npm install -g generator-fastify
 ```
 
+> Note: for no dependency vulnerability you need to execute the `npm install -g generator-fastify --no-save` command for no update the `package-lock.json` deep dependencies.
+
 Then generate your new project:
 
 ```bash
