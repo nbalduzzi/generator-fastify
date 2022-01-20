@@ -35,7 +35,7 @@
     "npm": ">= 4.0.0"
   },
   "dependencies": {
-    "yeoman-generator": "^4.13.0",
+    "yeoman-generator": "^5.6.1",
     "chalk": "^4.1.0",
     "yosay": "^2.0.2"
   },
