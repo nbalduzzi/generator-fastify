@@ -20,7 +20,7 @@
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "eslint": "^7.19.0",
+    "eslint": "^8.22.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-config-xo": "^0.34.0",
     "eslint-plugin-prettier": "^3.3.1",
